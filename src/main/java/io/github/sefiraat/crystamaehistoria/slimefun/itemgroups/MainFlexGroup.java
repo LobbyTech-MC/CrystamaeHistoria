@@ -1,5 +1,14 @@
 package io.github.sefiraat.crystamaehistoria.slimefun.itemgroups;
 
+import javax.annotation.ParametersAreNonnullByDefault;
+
+import org.bukkit.ChatColor;
+import org.bukkit.Material;
+import org.bukkit.NamespacedKey;
+import org.bukkit.Sound;
+import org.bukkit.entity.Player;
+import org.bukkit.inventory.ItemStack;
+
 import io.github.sefiraat.crystamaehistoria.slimefun.ItemGroups;
 import io.github.sefiraat.crystamaehistoria.utils.theme.ThemeType;
 import io.github.thebusybiscuit.slimefun4.api.items.ItemGroup;
@@ -10,29 +19,20 @@ import io.github.thebusybiscuit.slimefun4.core.guide.SlimefunGuideMode;
 import io.github.thebusybiscuit.slimefun4.implementation.Slimefun;
 import io.github.thebusybiscuit.slimefun4.utils.ChestMenuUtils;
 import me.mrCookieSlime.CSCoreLibPlugin.general.Inventory.ChestMenu;
-import net.kyori.adventure.text.Component;
-import net.kyori.adventure.text.TextComponent;
-import net.kyori.adventure.text.event.ClickEvent;
-import net.kyori.adventure.text.format.TextColor;
-import org.bukkit.ChatColor;
-import org.bukkit.Material;
-import org.bukkit.NamespacedKey;
-import org.bukkit.Sound;
-import org.bukkit.entity.Player;
-import org.bukkit.inventory.ItemStack;
-
-import javax.annotation.ParametersAreNonnullByDefault;
 
 /**
  * @noinspection deprecation
  */
 public class MainFlexGroup extends FlexItemGroup {
 
+	
     private static final ItemStack DOCS_ITEM_STACK = ThemeType.themedItemStack(
         Material.BOOK,
         ThemeType.GUIDE,
-        "附属 Wiki",
-        "点击获取附属 Wiki 地址"
+        "魔法水晶编年史指南",
+        "在这里你将拥有各种法术，",
+        "可以创建或解锁新法术，",
+        "快来体验法术的魔力吧！"
     );
 
     private static final int PAGE_SIZE = 36;
@@ -113,6 +113,7 @@ public class MainFlexGroup extends FlexItemGroup {
             return false;
         });
 
+        /*
         // Docs
         menu.replaceExistingItem(DOCS, DOCS_ITEM_STACK);
         menu.addMenuClickHandler(DOCS, (player1, i1, itemStack1, clickAction) -> {
@@ -124,6 +125,7 @@ public class MainFlexGroup extends FlexItemGroup {
             player1.sendMessage(link);
             return false;
         });
+        */
 
         // Mechanisms
         menu.replaceExistingItem(MECHANISMS, ItemGroups.MECHANISMS.getItem(player));

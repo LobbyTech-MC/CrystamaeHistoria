@@ -1252,7 +1252,7 @@ public class CrystaStacks {
             "附近的敌对生物",
             "",
             ThemeType.CLICK_INFO.getColor() + "范围: " + ThemeType.PASSIVE.getColor() + "5 格",
-            ThemeType.CLICK_INFO.getColor() + "力量: " + ThemeType.PASSIVE.getColor() + "3 CrystaPow™"
+            ThemeType.CLICK_INFO.getColor() + "力量: " + ThemeType.PASSIVE.getColor() + "3 水晶能量"
         );
 
         DISPERSION_LAMP = ThemeType.themedSlimefunItemStack(
@@ -1265,7 +1265,7 @@ public class CrystaStacks {
             "附近的敌对生物",
             "",
             ThemeType.CLICK_INFO.getColor() + "反馈: " + ThemeType.PASSIVE.getColor() + "7 格",
-            ThemeType.CLICK_INFO.getColor() + "力量: " + ThemeType.PASSIVE.getColor() + "5 CrystaPow™"
+            ThemeType.CLICK_INFO.getColor() + "力量: " + ThemeType.PASSIVE.getColor() + "5 水晶能量"
         );
 
         EXODUS_LAMP = ThemeType.themedSlimefunItemStack(
@@ -1278,7 +1278,7 @@ public class CrystaStacks {
             "附近的敌对生物",
             "",
             ThemeType.CLICK_INFO.getColor() + "反馈: " + ThemeType.PASSIVE.getColor() + "10 格",
-            ThemeType.CLICK_INFO.getColor() + "力量: " + ThemeType.PASSIVE.getColor() + "10 CrystaPow™"
+            ThemeType.CLICK_INFO.getColor() + "力量: " + ThemeType.PASSIVE.getColor() + "10 水晶能量"
         );
 
         INVERSION_VACUUM = ThemeType.themedSlimefunItemStack(
@@ -2290,40 +2290,40 @@ public class CrystaStacks {
             "CRY_BIRTHDAY_TROPHY_CHEESY",
             new ItemStack(Material.CAKE),
             ThemeType.CRAFTING,
-            "生日快乐Cheesy!",
+            "生日快乐王先生!",
             "一位热心的绅士",
             "",
-            ThemeType.CLICK_INFO.getColor() + "需要: 在Cheesy的生日当天制作"
+            ThemeType.CLICK_INFO.getColor() + "需要: 在王先生的生日当天制作"
         );
 
         BIRTHDAY_TROPHY_BWHITE = ThemeType.themedSlimefunItemStack(
             "CRY_BIRTHDAY_TROPHY_BWHITE",
             new ItemStack(Material.CAKE),
             ThemeType.CRAFTING,
-            "生日快乐BWhite!",
+            "生日快乐许老板!",
             "一位永恒的合作伙伴!",
             "",
-            ThemeType.CLICK_INFO.getColor() + "需要: 在BWhite的生日当天制作"
+            ThemeType.CLICK_INFO.getColor() + "需要: 在许老板的生日当天制作"
         );
 
         BIRTHDAY_TROPHY_DECOY = ThemeType.themedSlimefunItemStack(
             "CRY_BIRTHDAY_TROPHY_DECOY",
             new ItemStack(Material.CAKE),
             ThemeType.CRAFTING,
-            "生日快乐Decoy!",
+            "生日快乐涛博士!",
             "一位永恒的合作伙伴!",
             "",
-            ThemeType.CLICK_INFO.getColor() + "需要: 在Decoy的生日当天制作"
+            ThemeType.CLICK_INFO.getColor() + "需要: 在涛博士的生日当天制作"
         );
 
         BIRTHDAY_TROPHY_ODDISH = ThemeType.themedSlimefunItemStack(
             "CRY_BIRTHDAY_TROPHY_ODDISH",
             new ItemStack(Material.CAKE),
             ThemeType.CRAFTING,
-            "生日快乐Oddish!",
+            "生日快乐刘姥姥!",
             "可能是一场即将到来的阴郁",
             "",
-            ThemeType.CLICK_INFO.getColor() + "需要: 在Oddish的生日当天制作"
+            ThemeType.CLICK_INFO.getColor() + "需要: 在刘姥姥的生日当天制作"
         );
 
         ANNIVERSARY_TROPHY = ThemeType.themedSlimefunItemStack(
